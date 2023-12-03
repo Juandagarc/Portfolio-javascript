@@ -8,6 +8,7 @@ import Navbar from '../components/navbar/navbar';
 const AppRoutes = () => {
 
     return (
+        <div id='main-background'>
         <BrowserRouter>
         < Navbar />
             <Routes>
@@ -15,6 +16,7 @@ const AppRoutes = () => {
                 <Route exact path="/proyects" element={<Proyects />} />
             </Routes>
         </BrowserRouter>
+        </div>
     )
 }
 

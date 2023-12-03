@@ -1,0 +1,65 @@
+/* Agrega o modifica esto en tu archivo home.css */
+
+.main-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #171717;
+    
+  }
+  
+  .main-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinea verticalmente el texto y las palabras animadas */
+    font-size: 8vw;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fbfbfb;
+    padding-right: 20%;
+    padding-left: 2%;
+    margin-left: 2%;
+    background-color: #393939;
+    border-radius: 2rem;
+    position: relative; /* Establece una posición relativa */
+  }
+  
+  /* Si deseas aplicar el efecto de cambio de color a "garc" y "Dev" */
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%, -50%);
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.5vw;
+    line-height: 8vw;
+    color: #ecf0f1;
+  }
+  
+  .content__container {
+    font-weight: 500;
+    overflow: hidden;
+    height: 8vw;
+    padding: 0 4vw;
+    position: relative;
+    font-size: 8vw;
+  }
+  
+  .content__container__list {
+    font-weight: 620;
+    padding-left: 0;
+    text-align: left;
+    list-style: none;
+    animation: change 10s infinite;
+  }
+  
+
+  
+  @keyframes change {
+    50% { transform: translate3d(0, 200vw, 0); }
+    50% { transform: translate3d(0, -16vw, 0); }
+  }
+  

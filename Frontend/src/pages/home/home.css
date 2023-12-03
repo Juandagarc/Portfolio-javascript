@@ -1,9 +1,0 @@
-.main-title-container {
-    /*Se centra verticalmente*/
-    display: flex;
-    align-items: center;
-    /*Se centra horizontalmente*/
-    justify-content: center;
-    margin-top: 25vh;
-
-}
