@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
+import './proyects.css';
+
 function Proyects() {
   const [notionData, setNotionData] = useState(null);
 
@@ -16,8 +18,7 @@ function Proyects() {
   }, []);
 
   return (
-    <>
-      <p>¡Hola mundo!</p>
+    <div className='proyects-container'>
       {notionData && (
         <div>
           {/* Mapea sobre los datos de Notion y muestra la información */}
@@ -36,7 +37,7 @@ function Proyects() {
           ))}
         </div>
       )}
-    </>
+    </div>
   );
 }
 

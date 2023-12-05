@@ -1,0 +1,24 @@
+.comment {
+    margin: 1% 0 0 10%;
+    color: gray;
+    font-size: 1.5vw;
+}
+
+.particle-container{
+    position: relative;
+}
+
+.arrow-down {
+    display: block;
+    margin: 5% auto 0 auto;
+    color: #fff;
+    width: 2vw;
+}
+
+/* responsive */
+@media screen and (max-width: 912px) {
+    .comment {
+        margin: 2% 0 0 5%;
+        font-size: 5vw;
+    }
+}
