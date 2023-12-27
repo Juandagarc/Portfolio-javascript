@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Path
-        run: cd /Backend
+        run: ls
       - uses: actions/checkout@v4
 
       - name: Set up Python version
