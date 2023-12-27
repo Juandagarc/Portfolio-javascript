@@ -1,0 +1,86 @@
+.user-form {
+    max-width: 800px;
+}
+
+.card {
+    background-color: #000000;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.avatar {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 10px solid #000000;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    margin: 0 0 3% 0;
+}
+
+.user-info h2 {
+    margin-top: 0;
+    text-align: center;
+    margin: 0 0 1% 0;
+}
+
+.user-info li {
+    margin: 1% 5vw 1% 5vw;
+    text-align: center;
+    font-size:xx-large;
+}
+
+.user-info strong {
+    font-size:x-large;
+}
+.repo {
+    text-decoration: none;
+    color: #eeeeeea8;
+    background-color: #393939;
+    padding: 0.5%;
+    border-radius: 0.5rem;
+    margin: 0 1% 1% 0;
+    text-align: center;
+}
+
+.repo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 1% 0;
+}
+
+.user-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .user-info li {
+        font-size:xx-large;
+    }
+    
+    .user-info strong {
+        font-size:x-large;
+    }
+}
+.user-info ul {
+    list-style-type: none;
+    display: flex;
+    /* padding: 0; */
+    max-width: 400px;
+    justify-content: space-evenly;
+}

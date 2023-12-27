@@ -28,7 +28,7 @@ export default function ParticleComponent() {
                 "value": 10,
                 "density": {
                     "enable": false,
-                    "value_area": 800
+                    "value_area": 400
                 }
             },
             "color": {
@@ -134,6 +134,7 @@ export default function ParticleComponent() {
             "image": "",
             "position": "50% 50%",
             "repeat": "no-repeat",
+            //Se le pone el size para que se ajuste y no haga cover
             "size": "cover"
         }
     }}

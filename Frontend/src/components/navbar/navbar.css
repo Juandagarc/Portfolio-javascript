@@ -1,29 +1,126 @@
+
+
+
+#trapezoid {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  border: 80px solid rgba(0,0,0,0);
+  border-top: 0 solid;
+  border-bottom: 100px solid rgba(1, 1, 1, .4);
+  -webkit-border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 0 0;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  margin-top:-53px;
+  width: 700px;
+  position: relative;
+  transition: all 0.7s ease;
+  padding-left:7%;
+}
+
+#trapezoid a, .subnavbtn {
+ -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+.sub-home {
+  color: white;
+  z-index: 10;
+}
+
+
 .navbar {
+  z-index: 1;
+  position: sticky;
+  top: -50px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: all 0.5s ease;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 25px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: all 0.5s ease;
+}
+
+ .subnav:hover .subnavbtn {
+  background:#3baa00;
+  color: black;
+  border-radius:5px;
+}
+
+.subnav-content {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  transform: perspective(-10px);
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background:#B993D6;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-home:hover {
+  color:#3baa00 ; /* Cambia el color del texto a blanco al hacer hover */
+  background-color: #3caa0000;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child), .subnav .subnavbtn {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #303030;
-    padding: 1rem;
-    color: white;
   }
   
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .nav-list {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .nav-item {
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-item:hover {
-    color: #ffcc00; /* Cambiar a tu color de resaltado preferido */
-  }
-  
+}

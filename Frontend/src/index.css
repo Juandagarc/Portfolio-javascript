@@ -5,6 +5,17 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.main-background {
+    background-color:#111;
+    color: white;
+}
 #main-background {
-    background-color: #171717;
+    background-color:#111;
+    color: white;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

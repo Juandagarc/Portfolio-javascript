@@ -21,6 +21,7 @@ function Proyects() {
     <div className='proyects-container'>
       {notionData && (
         <div>
+          <h1>saasd</h1>
           {/* Mapea sobre los datos de Notion y muestra la información */}
           {notionData.map(item => (
             <div key={item.imagen}>
