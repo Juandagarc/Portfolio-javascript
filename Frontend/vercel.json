@@ -9,7 +9,7 @@
   "functions": {
     "api/index.py": {
       "runtime": "python3.8",
-      "includeFiles": "../Backend/*"
+      "includeFiles": ["../Backend/main.py", "requirements.txt"]
     }
   }
 }
