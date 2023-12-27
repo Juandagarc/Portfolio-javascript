@@ -5,11 +5,5 @@
       "src": "/(about|proyects)?",
       "dest": "/index.html"
     }
-  ],
-  "functions": {
-    "api/index.py": {
-      "runtime": "python3.8",
-      "includeFiles": "../Backend/main.py, requirements.txt"
-    }
-  }
+  ]
 }
