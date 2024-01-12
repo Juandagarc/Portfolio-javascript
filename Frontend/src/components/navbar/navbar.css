@@ -35,7 +35,7 @@
 
 
 .navbar {
-  z-index: 1;
+  z-index: 10;
   position: sticky;
   top: -50px;
   display: flex;
@@ -89,7 +89,14 @@
   width: 100%;
   z-index: 1;
   transform: perspective(-10px);
+  display: flex;
+  justify-content: center; /* Alinea los elementos al centro */
 }
+
+.subnav:hover .subnav-content {
+  display: flex; /* Asegúrate de que esté en flex para mantener la alineación al centro */
+}
+
 
 .subnav-content a {
   float: left;
@@ -114,13 +121,27 @@
 
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child), .subnav .subnavbtn {
-    display: none;
+    display: flex;
+  }
+
+  #trapezoid {
+    top: 50%;
+    padding-top: 12%;
+    padding-left: 10%;
+    width: 70%;
   }
   .navbar a.icon {
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .sub-home {
+    position: absolute  ;
+    top: 0%;
+  }
+  .subnav .subnavbtn {
+    padding: 5px 16px;
   }
   
 }

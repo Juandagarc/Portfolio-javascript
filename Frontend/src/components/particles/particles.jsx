@@ -20,8 +20,8 @@ export default function ParticleComponent() {
 
       options={{
         "fullScreen": {
-            "enable": true,
-            "zIndex": -1
+            "enable": false,
+            "zIndex": 1
         },
         "particles": {
             "number": {

@@ -1,0 +1,91 @@
+.ocupation-card__image {
+  width: 50vw;
+}
+.ocupation-card{
+    display: flex;
+}
+.ocupation-card__text{
+    margin: 3%;
+}
+
+.ocupation-title{
+    font-size: 9vw;    
+}
+
+.add-title-color{
+    color: #59ff00;
+}
+
+.ocupation-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ocupation-card-facts{
+    background-color: #333333;
+    color: white;
+    width: 17vw;
+    height: 17vw;
+    border-radius: 2rem;
+    padding: 5%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-ocupation{
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.add-title-color-1{
+    color: orangered;
+}
+.second-title{
+    font-size: 3vw;
+    margin: 0;
+}
+
+@media screen and (max-width: 912px) {
+    .ocupation-card{
+        display: block;
+    }
+    .ocupation-card__image {
+        display: none;
+      }
+    .ocupation-card-facts{
+        width: 80%;
+        height: 300px;
+    }
+    .ocupation-card__text{
+        margin: 5%;
+    }
+    .ocupation-title{
+        font-size: 15vw;
+        text-align: center;
+        background-color: #111;
+    }
+    .ocupation-card__text{
+        text-align: center;
+        background-image: url("../../assets/programmer.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* Se le baja el brillo al fondo pero no a su contenido */
+        
+    }
+    .icon-ocupation{
+        font-size: 18vw;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    
+}

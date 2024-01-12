@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './main-title.css';
+import ParticleComponent from '../particles/particles.jsx';
 
 const MainTitle = () => {
   const [currentColor, setCurrentColor] = useState(getRandomGreenColor());
@@ -34,6 +35,7 @@ const MainTitle = () => {
         </div>
       </div>
     </div>
+    
 
       {/* <div
         style={{

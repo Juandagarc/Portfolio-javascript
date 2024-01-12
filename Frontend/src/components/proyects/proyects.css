@@ -1,0 +1,27 @@
+.proyects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.proyect-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+}
+
+.proyect-card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.proyect-card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin-top: 8px;
+}

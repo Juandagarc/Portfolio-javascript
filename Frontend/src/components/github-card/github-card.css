@@ -1,16 +1,19 @@
 .user-form {
     max-width: 800px;
+    
 }
 
 .card {
+    
     background-color: #000000;
     padding: 1rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     border-radius: 0.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .avatar {
+    
     display: block;
     margin: 0 auto;
     border-radius: 50%;
@@ -20,6 +23,7 @@
 }
 
 .user-info {
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
     margin: 0 0 3% 0;
@@ -38,9 +42,11 @@
 }
 
 .user-info strong {
+    
     font-size:x-large;
 }
 .repo {
+    
     text-decoration: none;
     color: #eeeeeea8;
     background-color: #393939;
@@ -51,6 +57,7 @@
 }
 
 .repo-container {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -58,6 +65,7 @@
 }
 
 .user-name {
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     text-align: center;

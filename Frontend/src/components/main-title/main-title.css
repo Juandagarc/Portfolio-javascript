@@ -5,11 +5,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
+    
     /* background-color: #171717; */
     
   }
   
   .main-title {
+    
     text-align: center;
     display: flex;
     justify-content: center;
@@ -27,6 +29,7 @@
   
   /* Si deseas aplicar el efecto de cambio de color a "garc" y "Dev" */
   .content {
+    
     position: absolute;
     top: 50%;
     left: 45%;
@@ -69,7 +72,7 @@
     }
     .main-title {
       font-size: 14vw;
-      padding-right: 20vw;
+      padding-right: 19.6vw;
       padding-left: 1vw;
       margin: 0;
     }

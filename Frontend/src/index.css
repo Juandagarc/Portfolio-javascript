@@ -9,10 +9,10 @@
     background-color:#111;
     color: white;
 }
-#main-background {
+/* #main-background {
     background-color:#111;
     color: white;
-}
+} */
 .center {
     display: flex;
     justify-content: center;

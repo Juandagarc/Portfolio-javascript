@@ -1,18 +1,39 @@
+.home-background {
+    background-color: #111;
+}
+
 .comment {
     margin: 1% 0 0 10%;
-    color: gray;
+    color: rgb(181, 179, 179);
     font-size: 1.5vw;
+    
 }
 
 .particle-container{
-    position: relative;
+    position: absolute;
+    top: 0;
+    height: 50% !important;
 }
 .after-title{
     padding: 1vw 0 0 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
+
+.video-background {
+    position: absolute;
+    top: -20%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index:-1;
+    background-color:#111;
+    /* se le quita brillo al video */
+    filter: brightness(0.5);
+  }
 
 .arrow-down {
     display: block;
@@ -20,6 +41,7 @@
     color: #fff;
     width: 2vw;
 }
+
 
 /* responsive */
 @media screen and (max-width: 912px) {

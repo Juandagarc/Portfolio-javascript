@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Proyects from '../pages/proyects/proyects';
 import Home from '../pages/home/home';
 import Navbar from '../components/navbar/navbar';
+import ProyectsPage from '../pages/proyects-page/proyects-page';
 
 
 //Se crean las rutas para la aplicación
@@ -13,7 +13,7 @@ const AppRoutes = () => {
         < Navbar />
             <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route exact path="/proyects" element={<Proyects />} />
+                <Route exact path="/proyects" element={<ProyectsPage />} />
             </Routes>
         </BrowserRouter>
         </div>
