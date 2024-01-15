@@ -1,7 +1,11 @@
 .proyects-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  /* La primera fila tendra dos columnas y la segunda 3 */
+  grid-template-columns: 1fr 1fr;
+  /* El espacio entre las columnas */
+  grid-gap: 16px;
+  /* El espacio entre las filas */
+  grid-row-gap: 16px;
 }
 
 .proyect-card {
@@ -24,4 +28,8 @@
   font-weight: bold;
   display: block;
   margin-top: 8px;
+}
+
+.macs {
+  width: 30%;
 }

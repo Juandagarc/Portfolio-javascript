@@ -1,5 +1,8 @@
 import Proyects from "../../components/proyects/proyects";
 
+//css
+import './proyects-page.css';
+
 
 const ProyectsPage = () => {
     return (

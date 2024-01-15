@@ -15,6 +15,7 @@
     "react-bootstrap": "^2.9.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.1",
+    "react-spinners": "^0.13.8",
     "react-tsparticles": "^2.12.2",
     "tsparticles": "^2.12.0"
   },

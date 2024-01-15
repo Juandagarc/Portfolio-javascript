@@ -4,12 +4,19 @@
 .ocupation-card{
     display: flex;
 }
-.ocupation-card__text{
-    margin: 3%;
-}
+
 
 .ocupation-title{
     font-size: 9vw;    
+    text-align: center;
+}
+
+.ocupation-title2{
+    font-size: 8vw;    
+    text-align: left;
+    margin-left: 5%;
+    /* Se le resta el espaceado de lineas */
+    line-height: 80%;
 }
 
 .add-title-color{
@@ -27,7 +34,7 @@
     background-color: #333333;
     color: white;
     width: 17vw;
-    height: 17vw;
+    height: auto;
     border-radius: 2rem;
     padding: 5%;
     margin: 5%;
@@ -50,6 +57,20 @@
 .second-title{
     font-size: 3vw;
     margin: 0;
+}
+
+.ocupation-background{
+    background-image: url("../../assets/topo-v.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.reliable{
+    width: 40vw;
 }
 
 @media screen and (max-width: 912px) {
@@ -86,6 +107,13 @@
         justify-content: center;
         margin-bottom: 10px;
     }
-
-    
+    .ocupation-background{
+        display: block;
+    }
+    .ocupation-title2{
+        font-size: 12vw;
+    }
+    .reliable{
+        width: 100%;
+    }
 }
