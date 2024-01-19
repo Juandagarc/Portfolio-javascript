@@ -72,7 +72,7 @@ const Navbar = () => {
               </a>
             </div>
             <div className="subnav">
-              <a className="subnavbtn">
+              <a className="subnavbtn" href='/contact'>
                 Contact<i className="fa fa-caret-down"></i>
               </a>
             </div>
