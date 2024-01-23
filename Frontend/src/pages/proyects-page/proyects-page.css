@@ -2,3 +2,157 @@
     margin-top: -150%;
     padding-top: 150%;
 }
+
+
+element.style {
+    background-color: #161616;
+  }
+  .circles {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;;
+}
+
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+
+}
+
+.circles li:nth-child(1), #circular-image-1{
+    left: 83%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2), #circular-image-2{
+    left: 15%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 30%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4), #circular-image-3{
+    left: 47%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 765%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6), #circular-image-4{
+    left: 90%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 60%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8), #circular-image-5{
+    left: 15%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9), #circular-image-6{
+    left: 48%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10), #circular-image-7{
+    left: 60%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:nth-child(11), #circular-image-8{
+    left: 55%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(12), #circular-image-9{
+    left: 5%;
+    width: 70px;
+    height: 70px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:nth-child(13), #circular-image-10{
+    left: 20%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(14), #circular-image-11{
+    left: 80%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:nth-child(15), #circular-image-12{
+    left: 45%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 0s;
+}
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 100%;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 100%;
+    }
+
+}

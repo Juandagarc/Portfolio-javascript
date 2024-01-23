@@ -62,7 +62,7 @@ const Navbar = () => {
         {showAllOptions && (
           <>
             <div className="subnav">
-              <a className="subnavbtn">
+              <a className="subnavbtn" href='/about'>
                 About<i className="fa fa-caret-down"></i>
               </a>
             </div>

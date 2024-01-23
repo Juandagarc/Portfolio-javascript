@@ -1,0 +1,13 @@
+.word{
+    font-size: 8vw;    
+    text-align: center;
+    color: greenyellow;
+}
+
+@media screen and (max-width: 912px) {
+    .word{
+        margin-top: 10px;
+        font-size: 11vw;
+    }
+    
+}

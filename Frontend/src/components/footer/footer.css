@@ -1,0 +1,78 @@
+.footer {
+    background-color: black;
+    z-index: 1;
+    
+}
+
+.foooter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-navbar-footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+    margin-right: 10vw;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    font-family: inherit;
+    color: gray;
+    text-transform: uppercase;
+    background-color: #111;
+    padding: 0.5%;
+    margin-top: 1%;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+/* Agrega estos estilos para los botones de redes sociales */
+.footer-btn {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 12px;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Estilos específicos para cada botón */
+.linkedin, .instagram, .github {
+    background-color: black; /* Color de LinkedIn */
+}
+
+/* hover */
+.linkedin:hover {
+    background-color: #0077B5;
+}
+
+.instagram:hover {
+    background-color: #E4405F; /* Color de Instagram */
+}
+
+.github:hover {
+    background-color: #333; /* Color de GitHub */
+}
+
+/* Efecto de rotación al hacer hover */
+.footer-btn:hover {
+    transform: rotateY(360deg);
+}
+.social-media-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    margin-right: 10vw;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    font-family: inherit;
+    color: gray;
+    text-transform: uppercase;
+    background-color: #111;
+    padding: 0.5%;
+    margin-top: 1%;
+    border-radius: 10px;
+    z-index: 1;
+    margin-top: 2%;
+}

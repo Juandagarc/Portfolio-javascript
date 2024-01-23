@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './resolve-word.css';
 
 const RandomQuoteResolver = ({ resolveWord }) => {
   useEffect(() => {
@@ -77,7 +78,7 @@ const RandomQuoteResolver = ({ resolveWord }) => {
 
   return (
     <div className="container">
-      <h1 className="word" data-target-resolver></h1>
+      <h3 className="word" data-target-resolver></h3>
     </div>
   );
 };

@@ -9,6 +9,7 @@ import videoBackground from '../../assets/home.mp4';
 
 // Styles
 import './home.css';
+import Footer from '../../components/footer/footer';
 
 // This is the homepage
 const Home = () => {
@@ -32,7 +33,7 @@ const Home = () => {
       <div className='main-background after-title'>
         <OcupationCard />
       {/* <h1>&lt;/&gt;</h1> */}
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      < Footer />
       </div>
     </>
   );

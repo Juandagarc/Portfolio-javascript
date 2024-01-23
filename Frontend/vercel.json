@@ -2,7 +2,7 @@
   "routes": [
     { "handle": "filesystem" },
     {
-      "src": "/(about|proyects)?",
+      "src": "/(about|proyects|contact|about)?",
       "dest": "/index.html"
     }
   ]

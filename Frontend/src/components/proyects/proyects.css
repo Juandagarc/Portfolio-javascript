@@ -34,6 +34,7 @@
   border-radius: 8px;
   padding: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
 .proyect-card h2 {
@@ -45,6 +46,12 @@
   width: 100%;
   border-radius: 8px;
   margin-bottom: 10px;
+  /* Se le hace una transicion para que se vuelva grande */
+  transition: transform 0.3s;
+}
+
+.proyect-card img:hover {
+  transform: scale(1.1);
 }
 
 .proyect-card p {

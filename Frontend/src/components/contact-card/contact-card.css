@@ -6,10 +6,11 @@
 }
 
 #contact-app {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 5% 0 5%;
 }
 
 .contact-card {
@@ -119,6 +120,9 @@
 }
 
 .left-card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 2%;
   line-height: 25px;
   width: 300px;
@@ -133,4 +137,24 @@
     border-radius: 2rem;
     padding: 2%;
     margin: -1%;
+}
+
+.bmo {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 912px) {
+  #contact-app {
+    flex-direction: column-reverse;
+  }
+  .left-card-section{
+    border-radius: 0 0 10px 10px;
+    height: 300px;
+  }
+  .contact-card {
+    border-radius: 10px 10px 0 0;
+    height: 380px;
+  }
 }
