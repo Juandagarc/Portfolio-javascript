@@ -76,3 +76,12 @@
     z-index: 1;
     margin-top: 2%;
 }
+
+@media screen and (max-width: 912px) {
+    .foooter-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+}
