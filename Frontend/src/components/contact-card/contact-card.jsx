@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact-card.css';
 import MyPhoto from '../../assets/my-photo.jpeg';
-import BMo from '../../assets/bmo.gif';
+import BMo from '../../assets/BMo.gif';
 //linkedin
 import {FaLinkedin} from 'react-icons/fa'
 //instagram
