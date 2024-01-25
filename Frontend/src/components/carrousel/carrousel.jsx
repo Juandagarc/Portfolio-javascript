@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './Carrousel.css'; // Importa el archivo CSS
+import './carrousel.css'; // Importa el archivo CSS
 
 import js from '../../assets/carrousel/js.jpg';
 import css from '../../assets/carrousel/css.png';
