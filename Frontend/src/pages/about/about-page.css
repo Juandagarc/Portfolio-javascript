@@ -1,0 +1,60 @@
+.about-page{
+    margin-top: -150%;
+    padding-top: 150%;
+    background-color: #111;
+}
+.tools-heading {
+    text-align: center;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+  }
+.studies-title{
+    font-size: 6vw;
+    margin-left: 5%;
+    color:deeppink;
+}
+.studies-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: #333333;
+    padding: 3%;
+    border-radius: 10px;
+    line-height: 30px;
+    margin: 3%;
+    font-size: medium;
+    /* Se le quita la decoracion a la lista */
+    list-style:square;
+    box-shadow: 0 0 100px;
+    color: black;
+}
+.studies-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.setup-cube{
+    width: 28vw;
+}
+
+.studies-list a{
+    text-decoration: none;
+    color: rgb(183, 183, 183);
+    margin-left: 5%;
+}
+
+.services-title{
+    display: none;
+    text-align: right;
+    font-size: 6vw;
+    margin-right: 5%;
+    color:orangered;
+}
+@media screen and (max-width: 768px) {
+    .studies-title{
+        font-size: 10vw;
+    }
+}
