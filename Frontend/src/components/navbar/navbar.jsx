@@ -77,7 +77,7 @@ const Navbar = () => {
               </a>
             </div>
             <div className="subnav">
-              <a className="subnavbtn" href="https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/juan+david-garc%C3%ADa/543802c6-bdf0-49f1-9200-abc15769d492?view=html" target="_blank" rel="noopener noreferrer">
+              <a className="subnavbtn" href="https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/juan+david-garc%C3%ADa/ef628f30-c43a-4b12-b2ab-c8f7f647f44b?view=html" target="_blank" rel="noopener noreferrer">
                 CV<i className="fa fa-caret-down"></i>
               </a>
             </div>

@@ -43,7 +43,7 @@ function Proyects() {
               <p>{item.descripcion}</p>
               {item.link && (
                 <a href={item.link} target="_blank" rel="noopener noreferrer">
-                  Enlace
+                  Link
                 </a>
               )}
             </div>
