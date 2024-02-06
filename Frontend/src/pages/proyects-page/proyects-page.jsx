@@ -10,7 +10,7 @@ import Footer from "../../components/footer/footer";
 const ProyectsPage = () => {
     return (
         <div className="proyects-page main-background">
-            <RandomQuoteResolver className="word-resolved" resolveWord="@PROYECTS( )" />
+            <RandomQuoteResolver className="word-resolved" resolveWord="@PROJECTS( )" />
             <Proyects />
             <ul className="circles">
                 <li><img src={typescript} alt="" id="circular-image-1" /></li>
