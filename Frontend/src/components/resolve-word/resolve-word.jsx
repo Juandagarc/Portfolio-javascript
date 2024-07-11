@@ -62,19 +62,14 @@ const RandomQuoteResolver = ({ resolveWord }) => {
     };
 
     function callback() {
-      // Detener el efecto después de la primera iteración
-      // Comenta esta línea si deseas que el efecto continúe de forma infinita.
       return;
     }
 
     resolveRandomQuote(options, callback);
 
-    // Limpieza cuando se desmonta el componente
     return () => {
-      // Puedes agregar aquí alguna lógica de limpieza si es necesario
-      // Por ejemplo, detener el efecto de resolución aleatoria antes de desmontar el componente.
     };
-  }, [resolveWord]); // Agrega resolveWord al array de dependencias para que el efecto se ejecute cuando cambie
+  }, [resolveWord]);
 
   return (
     <div className="container">
